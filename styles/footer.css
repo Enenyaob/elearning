@@ -1,0 +1,22 @@
+.footer{
+  background-color: green;
+  height: 50px;
+  width: 100%;
+  padding-top: 5px;
+}
+.footer-text{
+  padding-top: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+.footer2{
+  background-color: #eeffee;
+  height: 40px;
+  width: 100%;
+  padding-top: 5px;
+}
+.footer-text2{
+  padding-top: 10px;
+  font-size: 12px;
+  padding-left: 20px;
+}

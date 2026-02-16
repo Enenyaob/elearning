@@ -1,0 +1,31 @@
+
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  aside .sidebar {
+      height: calc(100vh - 56px); /* Adjusted for header height */
+      position: fixed;
+      top: 55px; /* Height of the header */
+      left: 0;
+  }
+  .sidebar-color{
+    background-color: #007bff !important;
+  }
+  .sidebar .nav-link.active {
+      font-weight: bold;
+      color: #007bff;
+  }
+  .main {
+      margin-top: 56px; /* Height of the header */
+  }
+  .main-content{
+    padding-top: 20px; 
+    padding-bottom: 70px; 
+  }
+  .nav-item + .nav-item {
+      margin-left: 15px; /* Space between user and login buttons */
+  }
+  .modules div{
+    padding-top: 30px;
+  }

@@ -1,0 +1,39 @@
+.head{
+  background-color: green;
+  height: 95px;
+  width: 100%;
+  padding-top: 5px;
+}
+.head-text{
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  color: #fff;
+}
+.head-text div{
+  padding: 0px;
+}
+.head2{
+  background-color: rgb(240, 237, 237);
+  height: 45px;
+  padding-top: 9px;
+}
+.head-text2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  
+}
+.ad-header{
+  background-color: #eeffee;
+}
+/* styles/header.css */
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}

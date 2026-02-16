@@ -1,0 +1,15 @@
+# Custom 404 error page
+ErrorDocument 404 /php/404.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Set the base URL for all rewrite rules (optional, set if you are in a subdirectory)
+    # RewriteBase /subdirectory/
+    
+    # If the requested filename does not exist as a file
+    RewriteCond %{REQUEST_FILENAME} !-f
+    
+    # Rewrite the URL to include .php extension if not present
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
